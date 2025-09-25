@@ -1,0 +1,85 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222;
+}
+
+.App {
+  text-align: center;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 2rem;
+}
+
+.octofit-logo {
+  height: 60px;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  border-radius: 8px;
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.nav-link.active {
+  color: #ffd700 !important;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #007bff;
+  font-weight: 700;
+}
+
+.table {
+  background: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table-dark th {
+  background: #007bff !important;
+  color: #fff;
+}
+.btn {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+.btn:hover {
+  background: linear-gradient(90deg, #0056b3 0%, #00aaff 100%);
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #0056b3;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Modal custom styles */
+.modal-content {
+  border-radius: 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
